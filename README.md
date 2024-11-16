@@ -31,7 +31,7 @@ A React-based weather application that allows users to search for weather inform
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/AustinDavisTech/WeatherApp.git
+   git clone https://github.com/regsujan/WeatherApp.git
    ```
 
 2. Navigate to the project directory:
