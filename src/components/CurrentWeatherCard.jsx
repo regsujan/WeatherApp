@@ -57,11 +57,11 @@ export function CurrentWeatherCard( {weatherData, timezone} ) {
                     </li>
                     <li className="flex justify-between">
                         <span>Temperature: </span>
-                        <span>{Math.round(weatherData.temp)}°F</span>
+                        <span>{Math.round(weatherData.temp)}°C</span>
                     </li>
                     <li className="flex justify-between">
                         <span>Feels Like: </span>
-                        <span>{Math.round(weatherData.feels_like)}°F</span>
+                        <span>{Math.round(weatherData.feels_like)}°C</span>
                     </li>
                     <li className="flex justify-between">
                         <span>Sunrise: </span>
