@@ -15,11 +15,11 @@ export function DailyWeatherCard( {day} ) {
                     className="w-12 h-12"
                 />
             </div>
-            <p className="text-2xl font-bold my-4">{day.temp.day.toFixed(1)}°F</p>
+            <p className="text-2xl font-bold my-4">{day.temp.day.toFixed(1)}°C</p>
             <p className="text-sm text-gray-600">{day.summary}</p>
             <div className="flex justify-between w-full mt-2">
-                <p className="text-sm text-gray-600">Min: {day.temp.min.toFixed(1)}°F</p>
-                <p className="text-sm text-gray-600">Max: {day.temp.max.toFixed(1)}°F</p>
+                <p className="text-sm text-gray-600">Min: {day.temp.min.toFixed(1)}°C</p>
+                <p className="text-sm text-gray-600">Max: {day.temp.max.toFixed(1)}°C</p>
             </div>
         </div>
     )
