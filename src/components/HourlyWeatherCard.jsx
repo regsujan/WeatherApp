@@ -17,8 +17,8 @@ export function HourlyWeatherCard( {hour} ) {
                     className="w-12 h-12"
                 />
             </div>
-            <p className="text-2xl font-bold my-4">{hour.temp.toFixed(1)}°F</p>
-            <p className="text-sm text-gray-600">Feels Like: {hour.feels_like.toFixed(1)}°F</p>
+            <p className="text-2xl font-bold my-4">{hour.temp.toFixed(1)}°C</p>
+            <p className="text-sm text-gray-600">Feels Like: {hour.feels_like.toFixed(1)}°C</p>
             <p className="text-sm text-gray-600 capitalize">{hour.weather[0].description}</p>
         </div>
     )
