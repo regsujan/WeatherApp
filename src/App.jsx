@@ -76,7 +76,7 @@ function App() {
   const fetchWeatherData = async (coords) => {
     try {
       let response = await axios.get(
-        `https://api.openweathermap.org/data/3.0/onecall?lat=${coords.latitude}&lon=${coords.longitude}&units=imperial&appid=${API_KEY}`
+        `https://api.openweathermap.org/data/3.0/onecall?lat=${coords.latitude}&lon=${coords.longitude}&units=metric&appid=${API_KEY}`
       )
       setCurrentData(response.data.current)
       setHourlyData(response.data.hourly)
